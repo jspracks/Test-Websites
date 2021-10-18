@@ -1,0 +1,47 @@
+
+
+{
+	box-sizing: border-box:
+}
+header {
+	background-color: coral;
+	font-face: Lobster;
+	}
+
+body {
+	background-image: url("webb.jpg");
+	background-color: coral;
+	width:100%;
+	font-face: Times New Roman; 
+	color: red;
+	margin=left: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	}
+table {
+	background-image: url("webb.jpg");
+	BACKGROUND-COLOR: coral;
+	margin: 15px; 2px; 2px; 15px;
+	width: 80%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: black;
+}
+
+table, th, td {
+	border: 1px solid blue;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: coral;
+}
+
+@media only screen and (max width:620px) {
+	.menu, .main {
+	width: 100%;
+	}
+}

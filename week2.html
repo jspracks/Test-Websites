@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="header">  
+Header
+</div>
+<div class="Menu">
+<ul>
+	<li><a href="#home" class="active">Home</a></li>
+	<li><a href="#news">News</a></li>
+	<li><a href="#contact">Contact</a></li>
+	<li><a href="#about">About</a></li>
+</ul>
+</div>
+<div class="table">
+Here is a random table!<table id="mytable">
+<tr><th>First Name</th><th>Last Name</th><th>Title</th></tr>
+<tr><td>Frederic</td><td>Chopin</td><td>Mr.</td></tr>
+<tr><td>Optimus</td><td>Prime</td><td>Mr.</td></tr>
+<tr><td>Jenny</td><td>Craig</td><td>Ms.</td></tr>
+</table>
+</div>
+<div clas="form">
+<form action="#" onSubmit="return submitForm()" name="myForm" id="myForm: method="GET">
+<table id="formtable">
+<tr>
+<td>
+<label for="name">Name</label>
+</td>
+<td>
+<input type="text" name="Name" size="20"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for="title">Title</label>
+</td>
+<td>
+<input type="text" name="title" size="10"/>
+<td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" name="Submit"/>
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<div class="footer">Footer</div>
+</body>
+<script language=JavaScript" type="text/javascript">
+function submitForm()
+{
+	alert("Submit my Form!");
+	return true;
+}
+</script>
+</html>
